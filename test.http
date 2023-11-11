@@ -1,0 +1,12 @@
+GET http://localhost:8080/api/store/list
+
+###
+POST http://localhost:8080/api/store/list
+Content-Type: application/json
+
+{
+  "id": 2,
+  "sepalLength": 100,
+  "color": "blue",
+  "price": 100
+}
